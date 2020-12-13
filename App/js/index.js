@@ -23,7 +23,7 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Image")
                 .setHost(host,"xui_ui_image5")
-                .setLeft("53.333333333333336em")
+                .setLeft("36.57142857142857em")
                 .setTop("0.7619047619047619em")
                 .setWidth("4.571428571428571em")
                 .setHeight("4.114285714285714em")
@@ -122,6 +122,15 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("28.266666666666666em")
                 .setHeight("22.933333333333334em")
                 .setCaption("Preview")
+            );
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button20")
+                .setDirtyMark(false)
+                .setLeft("1.5238095238095237em")
+                .setTop("31.238095238095237em")
+                .setCaption("More Scratch!")
             );
             
             return children;
