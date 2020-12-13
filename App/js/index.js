@@ -35,7 +35,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_image7")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("7.923809523809524em")
+                .setWidth("9.447619047619048em")
                 .setHeight("7.923809523809524em")
                 .setSrc("{/}img/scratch beta logo.png")
             );
