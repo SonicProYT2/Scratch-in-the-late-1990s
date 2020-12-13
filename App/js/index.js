@@ -30,6 +30,16 @@ xui.Class('App', 'xui.Module',{
                 .setSrc("{/}img/default-avatar.gif")
             );
             
+            append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image7")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("7.923809523809524em")
+                .setHeight("7.923809523809524em")
+                .setSrc("{/}img/scratch beta logo.png")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
